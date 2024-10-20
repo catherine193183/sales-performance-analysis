@@ -1,0 +1,19 @@
+
+
+-this metadata
+
+Name: Sales Data for Products in Germany
+
+Description: This dataset provides sales information for various products sold in different locations in Germany on a specific date. It includes details about the sales representative, product, units sold, discount applied, and total sales value.
+
+Attributes:
+
+fSalesPrimaryKey: (Integer) A unique identifier for each sales entry.
+ProductID: (Integer) The ID of the product being sold.
+SalesRepID: (Integer) The ID of the sales representative responsible for the sale.
+Location: (String) The location where the sale occurred (city and country, e.g., 'Germany;Dresden').
+Date: (Date) The date of the sale (format: DD.MM.YYYY).
+Units: (Integer) The number of units sold.
+PercentOfStandardCost: (Float) The percentage of the standard cost used in calculating the sales price.
+RevenueDiscount: (Float) The discount applied to the revenue, represented as a percentage.
+tota sales: (Float) The total revenue generated from the sale after applying discounts
